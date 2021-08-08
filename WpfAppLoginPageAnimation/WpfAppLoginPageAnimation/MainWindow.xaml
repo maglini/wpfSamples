@@ -138,7 +138,7 @@
             <Path Data="M40.75,-31.333333 L21.25,-31.333333 61.789474,-31.333333 83.098685,-31.333333 125.55414,-31.333333 337.93142,-31.333334" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="5,105,0,0" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="300"/>
             <TextBlock HorizontalAlignment="Center" Height="30" Margin="0,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Foreground="White" FontSize="20" Text="Password"/>
             <Path Data="M40.75,-31.333333 L21.25,-31.333333 61.789474,-31.333333 83.098685,-31.333333 125.55414,-31.333333 337.93142,-31.333334" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="5,144,0,0" Stretch="Fill" Stroke="White" VerticalAlignment="Top" Width="300"/>
-            <CheckBox Content="Forgot Password?" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="229" Margin="0,160,0,0" Foreground="White" Background="Black"/>
+            <CheckBox Content="Forgot Password?" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="229" Margin="0,160,0,0" Foreground="Black"/>
         </Grid>
         <Rectangle x:Name="arrowUp" HorizontalAlignment="Left" Height="30" Margin="367,234,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
             <Rectangle.RenderTransform>
@@ -184,7 +184,7 @@
                 </Rectangle.Fill>
             </Rectangle>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Height="43" Margin="0,123,0,0" Text="Welcome!" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="32" FontWeight="Bold" FontStyle="Italic" Foreground="White"/>
-            <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Height="31" Margin="0,158,0,0" Text="Thanks for logging in" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="20" FontStyle="Italic" Foreground="White"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Height="31" Margin="0,158,0,0" Text="Thanks for visting us!" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontSize="20" FontStyle="Italic" Foreground="White"/>
 
         </Grid>
         <Rectangle x:Name="home" HorizontalAlignment="Left" Height="30" Margin="366,531,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.706,-0.303">
