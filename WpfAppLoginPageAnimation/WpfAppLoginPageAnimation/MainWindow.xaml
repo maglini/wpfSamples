@@ -98,10 +98,14 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="0.518"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.75" Value="0.523"/>
             </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" Storyboard.TargetName="path">
+                <EasingColorKeyFrame KeyTime="0" Value="White"/>
+                <EasingColorKeyFrame KeyTime="0:0:2.25" Value="Black"/>
+            </ColorAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
     <Window.Triggers>
-        <EventTrigger RoutedEvent="UIElement.MouseUp" SourceName="close">
+        <EventTrigger RoutedEvent="UIElement.MouseUp" SourceName="home">
             <BeginStoryboard Storyboard="{StaticResource GoUp}"/>
         </EventTrigger>
         <EventTrigger RoutedEvent="FrameworkElement.Loaded" SourceName="path">
